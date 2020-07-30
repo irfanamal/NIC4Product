@@ -49,10 +49,10 @@ decoder.load_state_dict(torch.load(decoder_path))
 
 with torch.no_grad():
 	while True:
-		source = input('Masukkan sumber (online/offline): ')
+		source = input('Input the source (online/offline): ')
 		file_path = ''
 		if source == 'offline':
-			filename = input('Masukkan nama gambar: ')
+			filename = input('Input the image's file name: ')
 			file_path = os.path.join(image_path, filename)
 		else:
 			images = os.listdir(image_path)
@@ -63,7 +63,7 @@ with torch.no_grad():
 				else:
 					i += 1
 			filename = str(i)+'.jpg'
-			url = input ('Masukkan url gambar: ')
+			url = input ('Input the image's URL: ')
 			file_path = os.path.join(image_path, filename)
 			urllib.request.urlretrieve(url, file_path)
 			print('Gambar berhasil didownload')
