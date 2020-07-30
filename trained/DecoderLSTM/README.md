@@ -1,0 +1,1 @@
+To download the trained DecoderLSTM, click [here](https://drive.google.com/drive/folders/1L29s_lGoh5Pnyothb811wtIXmAWnf0ts?usp=sharing). Please download the corresponding version as the EncoderCNN.
