@@ -22,7 +22,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 path = sys.path[0]
 
 vocabulary_path = os.path.join(path, 'dataset', 'vocab.pkl')
-image_path = os.path.join(path, 'dataset', 'gambar_nyoba')
+image_path = os.path.join(path, 'dataset', 'demo')
 encoder_path = os.path.join(path, 'trained', 'EncoderCNN', 'v12', 'encoder-8-final.ckpt')
 decoder_path = os.path.join(path, 'trained', 'DecoderLSTM', 'v12', 'decoder-8-final.ckpt')
 embedding_size = 512
