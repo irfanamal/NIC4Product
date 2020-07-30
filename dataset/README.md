@@ -1,0 +1,1 @@
+To download the dataset, click [here](https://drive.google.com/drive/folders/1U9jRCDGkaPbGcpMKxBSQOhvwZC9RBkOl?usp=sharing). There are two versions of dataset. The raw one and the preprocessed one. Please download the necessary dataset. Each dataset contains a folder of product images and a csv file of product titles. Image's file name is related to title's id.
